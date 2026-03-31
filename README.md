@@ -61,3 +61,10 @@ Python | Transformers | PyTorch | Scikit-learn | NLTK | SpeechRecognition
 - Importance of data preprocessing in NLP
 - Combining deep learning with classical ML models
 - Handling noisy real-world datasets
+
+
+## 🔮 Future Improvements
+- Fine-tuning DistilBERT end-to-end
+- Better probability calibration
+- Web app deployment using Streamlit
+- Explainable AI for risk interpretation
