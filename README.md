@@ -1,29 +1,31 @@
 # 🧠 Multimodal NLP System for Cognitive Risk Assessment using DistilBERT + SVM
 
 ## 📌 Overview
-This project focuses on detecting cognitive risk levels from human language using NLP. It supports both text and speech inputs and outputs a risk classification (Low, Moderate, High).
+This project focuses on detecting cognitive risk levels from human language using NLP techniques. It supports both text and speech inputs and provides a risk classification (Low, Moderate, High).
+
+Understanding cognitive patterns from language is a challenging task due to noisy, unstructured data. This project combines transformer-based embeddings with classical machine learning to address this problem.
 
 ---
 
 ## 🚀 Features
-- Text + Audio input support
+- Supports both text and speech input for real-time cognitive risk assessment.
 - Speech-to-text conversion
 - Text preprocessing (cleaning, stopword removal)
 - DistilBERT embeddings for deep contextual understanding
 - SVM classifier for prediction
 - Probability-based risk scoring
+  
 
 ---
-
-## 🧠 Model Pipeline
-![Architecture](your-image-name.png)
+## 🧠 Model Architecture
+![Architecture](architecture.png)
 
 ---
 
 ## 📊 Dataset
-- Collected from Reddit (public discussions)
-- Manually cleaned and relabeled
-- Designed to handle noisy real-world conversational data
+- Data sourced from Reddit (public discussions)
+- Performed manual cleaning and relabeling
+- Handled noisy and inconsistent real-world data
 
 ---
 
@@ -32,14 +34,12 @@ Python | Transformers | PyTorch | Scikit-learn | NLTK | SpeechRecognition
 
 ---
 
-## 📈 Results
-- Achieved effective classification performance
-- Includes evaluation metrics and visual outputs
+## 📊 Results
+![Output](clean_output.png)
 
----
+- Accuracy: 72.22%
+- Risk prediction based on probability scoring
 
-## 📸 Sample Outputs
-(Add your screenshots here)
 
 ---
 
@@ -51,7 +51,7 @@ Python | Transformers | PyTorch | Scikit-learn | NLTK | SpeechRecognition
 
 ---
 
-## 💡 Learnings
-- Importance of data preprocessing
-- Combining deep learning with classical ML
+## 💡 Key Learnings
+- Importance of data preprocessing in NLP
+- Combining deep learning with classical ML models
 - Handling noisy real-world datasets
