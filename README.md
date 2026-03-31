@@ -41,19 +41,19 @@ Python | Transformers | PyTorch | Scikit-learn | NLTK | SpeechRecognition
 ---
 
 ## 📊 Results
-- Accuracy: **72.22%**
+- **Accuracy: 72.22%**
 - Supports text and audio inference
 - Probability-based risk scoring
 - Example output included below
+  
 - ![Result](clean_output.png)
 
 ---
-
-## 🔗 How to Run
-1. Install dependencies
-2. Run the notebook/script
-3. Provide input (text/audio)
-4. Get prediction
+## ▶️ How to Run
+1. Install dependencies  
+2. Run the notebook  
+3. Provide text or audio input  
+4. Get risk prediction output  
 
 ---
 
